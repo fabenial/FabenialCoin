@@ -24,4 +24,4 @@ Execute the following command to get into the directory with copied repository
 
 Execute the following command to build a coin
 
-    make -j
+    make -j<cores +1>
