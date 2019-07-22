@@ -114,8 +114,8 @@ const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT            = 5000;           // 5 
 const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT       = 2000;           // 2 seconds
 const uint32_t P2P_DEFAULT_INVOKE_TIMEOUT                = 60 * 2 * 1000;  // 2 minutes
 const uint32_t P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT      = 5000;           // 5 seconds
-const char     P2P_STAT_TRUSTED_PUB_KEY[] = "7faf1b1a49aea1f5bc50f5df7b9087b622dc9b6e5080bae33828f71a4c7b807d";
-
+const char     P2P_STAT_TRUSTED_PUB_KEY[] = "5736ff4f40790ae3163c51ed6f9bd880859d0972830cd836afe77edd8452931c";
+											
 const char *const SEED_NODES[] = {
 	"52.14.48.50:24244",
 };
