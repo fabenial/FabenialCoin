@@ -1,0 +1,37 @@
+#include "version.hpp"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,18,11,5
+ PRODUCTVERSION 1,18,11,5
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Fabenial Foundation"
+            VALUE "FileDescription", "Fabenial"
+            VALUE "FileVersion", "1.18.11.5"
+            VALUE "InternalName", "fabenial.rc"
+            VALUE "LegalCopyright", "Copyright (C) Fabenial Foundation, 2018"
+            VALUE "ProductName", "Fabenial"
+            VALUE "ProductVersion", "1.18.11.5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+101               ICON                    "fabenial.ico"
