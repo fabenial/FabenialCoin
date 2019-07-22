@@ -1,4 +1,4 @@
-# Fabenial Core
+# Fabenial Core [eng]
 
 ## About
 
@@ -58,7 +58,7 @@ Put LMDB source code in `fabenial` folder (source files are referenced via relat
 $fabenial> git clone https://github.com/fabenial/lmdb.git
 ```
 
-Create build directory inside bytecoin, go there and run CMake and Make:
+Create build directory inside fabenial, go there and run CMake and Make:
 ```
 $fabenial> mkdir fabenial_core/build
 $fabenial> cd fabenial_core/build
