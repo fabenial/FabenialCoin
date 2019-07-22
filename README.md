@@ -1,5 +1,7 @@
 # Fabenial Core [eng]
 
+[Russian README](https://github.com/fabenial/FabenialCoin/blob/master/README-ru.md)
+
 ## About
 
 Welcome to the repository of Fabenial Core. Here you will find source code, instructions and tutorials.
