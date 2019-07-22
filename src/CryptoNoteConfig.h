@@ -37,7 +37,7 @@ const uint64_t MINIMUM_FEE                                   = UINT64_C(10000000
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
 
 //TODO Define preferred block's target time
-const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 180; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
 //TODO There are options to tune CryptoNote's difficulty retargeting function.
 //TODO We recommend not to change it.
@@ -72,7 +72,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "fabenial"; //coin name
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000180ecadccec9002029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101cf68cd12f4530b5662bf04aadda729e3ec95863fc3a75e9cfe0e0060441f5646";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -104,7 +104,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "0000000000000000
 																
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "18.191.246.164:24244"
+  "18.191.246.164:24244",
   //"your_seed_ip2.com:24244",
 };
 
@@ -120,7 +120,7 @@ __attribute__((unused))
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-  { 1, "503b6e98be787f9aa2b1cae3566a1a92f7a0e654b31f9edafe0192b97b5f7f9c" }
+  //{ 1, "503b6e98be787f9aa2b1cae3566a1a92f7a0e654b31f9edafe0192b97b5f7f9c" }
 };
 } // CryptoNote
 
