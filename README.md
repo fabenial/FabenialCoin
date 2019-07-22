@@ -50,7 +50,7 @@ To go futher you have to have a number of packages and utilities. You need at le
 
 Git-clone (or git-pull) Fabenial Core source code in that folder:
 ```
-$fabenial> git clone https://github.com/fabenial/fabenial_core.git
+$fabenial> git clone https://github.com/fabenial/FabenialCoin fabenial_core
 ```
 
 Put LMDB source code in `fabenial` folder (source files are referenced via relative paths, so you do not need to separately build it):
