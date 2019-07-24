@@ -34,7 +34,7 @@ Options:
   --export-view-only=<file>            Export view-only version of wallet file with the same password, then exit.
   --export-keys                        Export wallet keys to stdout, then exit.
 
-  --wallet-rpc-bind-address=<ip:port>  Interface and port for wallet-rpc [default: 127.0.0.1:28082].
+  --wallet-rpc-bind-address=<ip:port>  Interface and port for wallet-rpc [default: 127.0.0.1:24242].
   --data-folder=<full-path>            Folder for wallet cache, blockchain, logs and peer DB [default: )" platform_DEFAULT_DATA_FOLDER_PATH_PREFIX
     R"(fabenial].
   --daemon-remote-address=<ip:port> Connect to remote fabeniald and suppress running built-in fabeniald.
@@ -42,9 +42,9 @@ Options:
   --backup-wallet=<folder>             Perform hot backup of wallet file and wallet cache into specified backup data folder, then exit.
 Options for built-in fabeniald (run when no --daemon-remote-address specified):
   --allow-local-ip                     Allow local ip add to peer list, mostly in debug purposes.
-  --p2p-bind-address=<ip:port>         Interface and port for P2P network protocol [default: 0.0.0.0:28080].
-  --p2p-external-port=<port>           External port for P2P network protocol, if port forwarding used with NAT [default: 28080].
-  --daemon-rpc-bind-address=<ip:port>  Interface and port for fabeniald RPC [default: 127.0.0.1:28081].
+  --p2p-bind-address=<ip:port>         Interface and port for P2P network protocol [default: 0.0.0.0:24240].
+  --p2p-external-port=<port>           External port for P2P network protocol, if port forwarding used with NAT [default: 24240].
+  --daemon-rpc-bind-address=<ip:port>  Interface and port for fabeniald RPC [default: 127.0.0.1:24241].
   --seed-node-address=<ip:port>        Specify list (one or more) of nodes to start connecting to.
   --priority-node-address=<ip:port>    Specify list (one or more) of nodes to connect to and attempt to keep the connection open.
   --exclusive-node-address=<ip:port>   Specify list (one or more) of nodes to connect to only. All other nodes including seed nodes will be ignored.)";

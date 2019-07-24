@@ -25,9 +25,9 @@ Usage:
 
 Options:
   --allow-local-ip                     Allow local ip add to peer list, mostly in debug purposes.
-  --p2p-bind-address=<ip:port>         Interface and port for P2P network protocol [default: 0.0.0.0:28080].
-  --p2p-external-port=<port>           External port for P2P network protocol, if port forwarding used with NAT [default: 28080].
-  --daemon-rpc-bind-address=<ip:port>  Interface and port for fabeniald RPC [default: 127.0.0.1:28081].
+  --p2p-bind-address=<ip:port>         Interface and port for P2P network protocol [default: 0.0.0.0:24240].
+  --p2p-external-port=<port>           External port for P2P network protocol, if port forwarding used with NAT [default: 24240].
+  --daemon-rpc-bind-address=<ip:port>  Interface and port for fabeniald RPC [default: 127.0.0.1:24241].
   --seed-node-address=<ip:port>        Specify list (one or more) of nodes to start connecting to.
   --priority-node-address=<ip:port>    Specify list (one or more) of nodes to connect to and attempt to keep the connection open.
   --exclusive-node-address=<ip:port>   Specify list (one or more) of nodes to connect to only. All other nodes including seed nodes will be ignored.
